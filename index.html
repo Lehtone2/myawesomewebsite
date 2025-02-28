@@ -1,48 +1,69 @@
 <!DOCTYPE html>
-<html lang="el"> 
-    <body background="forthewebsite.jpg"></body>
-<link rel="stylesheet" type="text/css" href="styles.css">
-
-        <head>
-        <h1>Some stuff about me!</h1>
-        <img src="moca.jpg" alt="my dog" width="300">
-        <style> h1 {color: aqua;}</style>
-        <style> h2 {color: aqua;}</style>
-        <style> h4 {color: hotpink;}</style>
-        <h4>Above is one of my dogs Moca! We call her "moca the menace" because she is sometimes a menace and it can be funny and a lot of times annoying.</h4> 
-        <h2>About me</h2></head>
-    <body>
-        
-        <p> I like playing games, I am currently a GIM major. I play destiny 2, Rocket League, and a bit of Fortnite as of late. Luckily for me Destiny has been on the up and up a little since they launched a new content update. But we'll see how far that goes and how long I will actually play it this time. 
-            I also really like going for walks they are a great way to get out and not have to worry about anything for a short period of time just listen to some music and walk. </p>
-        
-            <style> p {color: hotpink;}</style></body>
-    <body>
-        <h2>My Favorite Games</h2>
-        <style> h2 {color: aqua;}</style>
-        <p>Destiny 2</p>
-        <p>Destiny 1</p>
-        <p>Halo Reach</p>
-        <p>Rocket League</p>
-        <p>Mario Kart Wii</p>
-        <style> p {color:hotpink;}</style>
-      
-        <p> My overall favorite has to be Destiny 2 with a overall whopping 5,900 hours as of today total logged which I will admit, a lot of that time is spent AFK. 
-            The game has been out for over 7 years now though so cut me some slack. Either way I do acknowledge that is a lot of time. Covid was a interesting time for me and video games.</p>
-    </body>
-    <head>
-        <h3> The list of my favorite games' most relevant websites.</h3>
-        <style> h3 {color: aqua;}</style>
-    </head>  
-   
- <body><div class="box">
-    <p> <ol> 
-          <li><a href="https://www.bungie.net/7/en/destiny" target="_blank">Destiny 2</a></li>
-          <li><a href="https://www.xbox.com/en-US/games/store/destiny/C2JQRC2C49B0" target="_blank">Destiny 1</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Halo:_Reach" target="_blank">Halo Reach</a></li>
-          <li><a href="https://www.rocketleague.com/en" target="_blank">Rocket League</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Mario_Kart_Wii" target="_blank">Mario Kart Wii</a></li>
-        </ol> </p>
-        </body>    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
     
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#games">Favorite Games</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a Games and Interactive Media major, I like playing video games. I have recently been back into Destiny 2 because they have quite a bit of new stuff to do as of late and it's been really fun. Also have been playing some Fortnite and Rocket League.</p>
+        </section>
+        
+        <section id="games">
+            <h2>My Favorite Games</h2>
+            <div class="game-container">
+                <div class="game-item">
+                    <img src="destiny2forthewebsite.jpg" alt="Game 1">
+                    <p><a href="https://www.bungie.net/7/en/destiny">Destiny 2</a></p>
+                </div>
+                <div class="game-item">
+                    <img src="haloreachforwebsite.jpg" alt="Game 2">
+                    <p><a href="https://en.wikipedia.org/wiki/Halo:_Reach">Halo Reach</a></p>
+                </div>
+                <div class="game-item">
+                    <img src="rocketleagueformywebsite.jpg" alt="Game 3">
+                    <p><a href="https://www.rocketleague.com/en">Rocket League</a></p>
+                </div>
+                <div class="game-item">
+                    <img src="mariokartwiiforwebsite.jpg" alt="Game 4">
+                    <p><a href="https://en.wikipedia.org/wiki/Mario_Kart_Wii">Mario Kart Wii</a></p>
+                </div>
+                <div class="game-item">
+                    <img src="destiny1forwebsite.webp" alt="Game 5">
+                    <p><a href="https://www.xbox.com/en-US/games/store/destiny/C2JQRC2C49B0">Destiny 1</a></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="image-container">
+                <img src="IMG_1021.jpg" alt="doggo1" class="gallery-image">
+                <img src="IMG_1022.jpeg" alt="doggo2" class="gallery-image">
+                <img src="IMG_1023.jpg" alt="doggo3" class="gallery-image">
+            </div>
+            <p class="gallery-description">These are my 2 dogs! The smaller one is Moca, the bigger one is Remi. Moca can be a bit of a pain in the butt. But Remi is a really well trained dog!</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&#9993; lehtone2@msu.edu</p>
+    </footer>
+</body>
 </html>
